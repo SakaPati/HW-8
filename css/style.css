@@ -1,0 +1,60 @@
+/* Завданя 1 */
+#greycol{
+    color: gray;
+}
+
+body h3:first-child{
+    color: pink;
+}
+
+div * p{
+    color: red;
+}
+
+.yellow{
+    color: yellow;
+}
+
+p:nth-child(7){
+    color: green;
+}
+/* Завданя 2 */
+/* Понеділок */
+.monday:nth-child(odd){
+    color: red;
+}
+.monday:nth-child(even){
+    color: blueviolet;
+}
+/* Вторнік */
+.tuesday:nth-child(odd){
+    color: greenyellow;
+}
+.tuesday:nth-child(even){
+    color: powderblue;
+}
+/* Среда */
+.wednesday:nth-child(odd){
+    color: green;
+}
+.wednesday:nth-child(even){
+    color: orangered;
+}
+/* Четверг */
+.thursday:nth-child(odd){
+    color: blue;
+}
+.thursday:nth-child(even){
+    color: purple;
+}
+/* П'ятнеця */
+.friday:nth-child(odd){
+    color: yellow;
+}
+.friday:nth-child(even){
+    color: burlywood;
+}
+/* Style */
+body ul{
+    list-style: none;
+}
